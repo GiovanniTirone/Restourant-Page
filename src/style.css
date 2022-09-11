@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#main_bar {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(6,1fr);
+    /*margin-left: 200px;
+    margin-right: 200px;*/
+    gap: 8px;
+}
+
+#home_btn{
+    grid-column: 2;
+}
+
+
+.btn{
+    cursor: pointer;
+    background-color:burlywood;
+    border-color: burlywood;
+    color:brown;
+    border-radius: 5px;
+}
+
+.main_bar_btn{
+    height: 40px;
+    width: 80px;
+}
+
+#core{
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu_btn {
+    height: 60px;
+    width: 120px;
+}
