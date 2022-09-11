@@ -92,20 +92,20 @@ function createMenu () {
 
     let Recipes = {
         starter_div_recipes : {
-            aloo_tikki : createRecipe("aloo_tikki","Aloo Tikki","Potatoes, peas and chickpea flour","../images/menu_images/aloo-tikki.jpg"),
-            pakora: createRecipe("pakora","Pakora","Fried potatoes, onions, vegetable mix, chickpea flour and spices Indian ...","../images/menu_images/Pakora.webp"),
+            aloo_tikki : createRecipe("aloo_tikki","Aloo Tikki","Potatoes, peas and chickpea flour","./images/menu_images/aloo-tikki.jpg"),
+            pakora: createRecipe("pakora","Pakora","Fried potatoes, onions, vegetable mix, chickpea flour and spices Indian ...","./images/menu_images/Pakora.webp"),
         },
         rice_dish_div_recipes : {
-            jeera_rice : createRecipe("jeera_rice","Jeera Rice","Basmati rice and cumin","../images/menu_images/Jeera-rice.jpg"),
-            chicken_biryani : createRecipe("chicken_biryani","Chicken Biryani","Basmati rice, chicken and Indian spices","../images/menu_images/chicke-biryani.jpg"),
+            jeera_rice : createRecipe("jeera_rice","Jeera Rice","Basmati rice and cumin","./images/menu_images/Jeera-rice.jpg"),
+            chicken_biryani : createRecipe("chicken_biryani","Chicken Biryani","Basmati rice, chicken and Indian spices","./images/menu_images/chicke-biryani.jpg"),
         },
         tandori_div_recipes : {
-            tikka_chicken : createRecipe("tikka_chicken","Tikka Chicken","Grilled chicken and marinated with spices","../images/menu_images/tikka-chicken.jpg"),
-            tandori_chicken : createRecipe("tandori_chicken","Tandori Chicken","chicken legs marinated with spices","../images/menu_images/tandori-chicken.jpg"),
+            tikka_chicken : createRecipe("tikka_chicken","Tikka Chicken","Grilled chicken and marinated with spices","./images/menu_images/tikka-chicken.jpg"),
+            tandori_chicken : createRecipe("tandori_chicken","Tandori Chicken","chicken legs marinated with spices","./images/menu_images/tandori-chicken.jpg"),
         },
         vegetables_dish_div_recipes : {
-            saag_aloo : createRecipe("saag_aloo","Saag Aloo","Baby spinach and spices","../images/menu_images/Saag_aloo.jpg"),
-            tarka_daal : createRecipe("tarka_daal","Tarka Daal","Lentil and spices","../images/menu_images/tarka-daal.jpg"),
+            saag_aloo : createRecipe("saag_aloo","Saag Aloo","Baby spinach and spices","./images/menu_images/Saag_aloo.jpg"),
+            tarka_daal : createRecipe("tarka_daal","Tarka Daal","Lentil and spices","./images/menu_images/tarka-daal.jpg"),
         },
     }
 
