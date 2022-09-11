@@ -4,7 +4,7 @@ function createHomepage () {
 
     let indian_food_img = document.createElement("img");
     indian_food_img.id ="indian_food_img";
-    indian_food_img.setAttribute("src","../images/indian-foods.jpg");
+    indian_food_img.setAttribute("src","./images/indian-foods.jpg");
 
     core.appendChild(indian_food_img);
     intro.innerHTML = "Welcome! Come to try the best indian food of Sondrio.";
